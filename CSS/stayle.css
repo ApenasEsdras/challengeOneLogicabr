@@ -1,17 +1,56 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: "Inter", "sans-serif";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* line-height distancia entre as linhas */
 }
 
 body {
     background-color: #E5E5E5;
+
 }
 
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto {
+    margin-top: 90px;
+}
+
+.mensagem {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url(/img/High\ quality\ products\ 1\ 1.svg);
+    background-repeat: no-repeat;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: darkblue;
+    color: wheat;
+}
+
+.desencriptar {}
+
+.Infromação {
+    font-size: 15px;
+}
+
+/* 
 .encripito {
     align-items: center;
     background-color: aquamarine;
     margin-left: 65%;
     margin-top: 50px;
 
-}
+} */
