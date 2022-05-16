@@ -10,78 +10,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&display=swap" rel="stylesheet">
 </head>
 
-
 <body>
-    <header>
+    <header class="logo">
         <img src="/img/Logo.svg" alt="Letra A. logo da alura">
     </header>
 
     <main class="main">
 
         <section>
-            <textarea class="input-texto" cols="40" rows="8">digite seu texto</textarea>
+            <textarea class="input-texto" cols="40" rows="8" placeholder="Digite seu texto"></textarea>
 
-            <div>
-                <h6 class="Infromação">Apenas letras maiusculas e minisculas</h6>
+            <div class="alert">
+                <img src="/img/Frame 1@3x.svg" alt="">
             </div>
+
             <div class="botoes">
-                <button class="encriptar" onclick="btnEncriptar()">
+                <button class="encriptar" onclick="bntEncriptar()">
                     Criptografar
                 </button>
-                <button class="desencriptar">
-                    Desecriptografar
-                </button>
+                <button class="desencriptar" onclick="bntDesencriptar()">Descriptografar</button>
             </div>
         </section>
 
-
-
         <section>
-            <textarea class="mensagem" cols="18" rows="6"></textarea>
+            <textarea class="mensagem" cols="18" rows="10" placeholder=></textarea>
+            <button class="copiar" id="copiarMsg" onclick="copiar()">
+                Copiar
+            </button>
         </section>
 
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <div class="container1">
-
-        <div class="typeText">
-            <h1>Digite seu texto</h1>
-        </div>
-
-        <div class="logo">
-            <img src="/img/Logo.svg" alt="Letra a. logo da alura">
-
-        </div>
-
-        <div class="encripito">
-            <div class="contents">
-                <img src="/img/High quality products 1 1@3x.svg"
-                    alt="Imagem de uma menina com uma lupa, observando um diamante.">
-            </div>
-        </div>
-
-        <div class="information">
-            <img src="/img/Frame 1@3x.svg" alt="Infromação. Digite apenas letras minúsculas e sem acento.">
-        </div>
-
-        <div class="boot">
-            <button>Criptografar</button>
-            <button>Descriptografar</button>
-        </div>
-
-    </div> -->
-
 </body>
 
 
